@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  src: url(./assets/fonts/Inter-Bold.ttf);
+  font-family: 'Inter-Bold';
+}
+
+@font-face {
   src: url(./assets/fonts/Inter-Regular.ttf);
   font-family: 'Inter-Regular';
 }
@@ -57,12 +62,14 @@ p {
   position: absolute;
   top:0rem;
   right:0rem;
+  z-index:-1;
 }
 
 .bottom-left-blob {
   position: absolute;
   bottom:0rem;
   left:0rem;
+  z-index:-1;
 }
 
 .content-div .description {
@@ -77,6 +84,8 @@ p {
   font-size:1.6rem;
   border-radius:1.5rem;
 }
+
+.quiz-page { padding-top: 3.7rem; }
 
 .multiple-choice-question-div {
   padding-top:1.46rem;
@@ -108,3 +117,23 @@ label span {
   margin-top: -7.5px;
 }
 input:checked + span {background: #D6DBF5; border-color: #4D5B9E;}
+
+.button-div { 
+  padding-top:2rem;
+  text-align:center; 
+}
+
+.score {
+  display:none;
+  font-family:'Inter-Bold';
+  font-size:1.28rem;
+  margin-right:2rem;
+}
+
+.btn-quizpg {
+  font-family:'Inter-Regular';
+  font-size:1rem;
+  width:12rem;
+  height:3.5rem;
+  border-radius:1.5rem;
+}

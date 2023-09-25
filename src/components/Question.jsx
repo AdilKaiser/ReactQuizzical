@@ -1,9 +1,5 @@
 function Question(props) {
 
-    const styles = {
-        backgroundColor: props.isHeld ? "#59E391" : "#FFFFFF"
-    }
-
   return (
     <div className="multiple-choice-question-div">
         <div className="question-div">
